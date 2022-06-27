@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Railways</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="train.css" rel="stylesheet">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+            <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    </head>
+
+    <body>
+        <div class="container1" id="home">
+            
+            <video width="1260" height="748" autoplay muted loop id="myVideo">
+                <source  src = "railway3.mp4" type = "video/mp4">
+            </video>
+   
+                
+                <section class="login-block">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <form class="md-float-material form-material" action="#" method="POST">
+                                    <div class="auth-box card">
+                                        <div class="card-block">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <h3 class="text-center heading" >Create&nbsp;&nbsp;your&nbsp;&nbsp;account.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
+                                                    
+                                                </div>
+                                            </div>
+                                            <div class="form-group form-primary">
+                                             
+                                                 <input type="text" class="form-control" name="first_name" value="" placeholder="Display name" id="first_name"> 
+                                            </div>
+                
+                                            <div class="form-group form-primary">
+                                                <input type="text" class="form-control" name="email" value="" placeholder="Email" id="email">
+                                               
+                                            </div>
+                
+                                            <div class="form-group form-primary">
+                                               <input type="password" class="form-control" name="password" placeholder="Password" value="" id="password">
+                                              
+                                            </div>
+                
+                                            <div class="form-group form-primary">
+                                                <input type="password" class="form-control" name="password_confirm" placeholder="Repeat password" value="" id="password_confirm">
+                                                
+                                            </div>
+                
+                
+                                            <div class="row">
+                                                <div class="col-md-12">
+                
+                                                    <input type="submit" class="btn btn-primary btn-md btn-block waves-effect text-center m-b-20" name="submit" value="Signup Now">
+                                                   <!--  <button type="button" class="btn btn-primary btn-md btn-block waves-effect text-center m-b-20"><i class="fa fa-lock"></i> Signup Now </button> -->
+                                                </div>
+                                            </div>
+                
+                                            <div class="or-container"><div class="line-separator"></div> <div class="or-label">or</div><div class="line-separator"></div></div>
+                
+                
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                  <a style="box-sizing: border-box;" class="btn btn-lg btn-google btn-block text-uppercase btn-outline" href="https://mail.google.com/"><img src="https://img.icons8.com/color/16/000000/google-logo.png"> Signup Using Google</a>
+                
+                                                </div>
+                                            </div>
+                                            <br>
+                
+                                            <p class="text-inverse text-center">Already have an account? <a href="<?= base_url() ?>auth/login" data-abc="true">Login</a></p>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <div class="sign">
+                    <h6><span class="fast-flicker"> Welcome</span> to <span class="flicker"> Indian&nbsp; </span> Railways</h6>
+                  </div>
+
+            
+
+        </div>
+        <div class="live-status" id="Live">
+            <img class="image2" src="https://img.freepik.com/free-vector/abstract-blue-white-wave-background_41084-451.jpg?w=2000" alt="train">
+
+            <form class="form1" img src="https://cdn.pixabay.com/photo/2012/06/22/23/29/train-50517_1280.jpg">
+                <h2>Train Live Status</h2>
+                <h3> Enter Train Name and No. : </h3> <br>
+                <input class="box" type="text" name="train no.">
+                <h3> Journey station :</h3>
+                <input class="box" type="text" name="journey Station">
+                <h3> Journey Date :</h3>
+                <input class="box" type="Date" name="journey date">
+                <a href="live-status.html"><button type="submit" form="form1">GO</button></a>
+                <br> <br> <br>
+            </form>
+            <div class="live-info">
+                <h3> What is Live Train Running Status?</h3>
+                <p> Live train running status for Indian railway trains means the current location of any train and its
+                    real time delay status. It also includes estimated arrival time of the train at upcoming stops.</p>
+                <h3>Why do users need to check current train running status frequently on the date of the journey?</h3>
+                <p>It is critical to save on time while waiting to board your train or booking a taxi when you reach
+                    your destination. Train running status updates every minute. So, we recommend that our users check
+                    the status updates from time to time. The train running status information becomes more and more
+                    accurate, as the train is about to reach the estimated time of travel. This information helps you
+                    save time and plan better!</p>
+                <h3>How can we check Live Train Status? </h3>
+                <p>Train status can be checked on the go via website to know the current location of the train and its
+                    delay status. Check train status through any modern day Internet-powered devices. If you are on a
+                    train you can also check live train status being offline by switching to GPS mode for fetching live
+                    train status. It recommends its users to use GPS mode while travelling on train for faster and more
+                    precise location.</p>
+            </div>
+        </div>
+        <div class="live-status" id="bw">
+            <img class="image3" src="https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/itCjTBE/blue-abstract-moving-flowing-waves-on-white-background-blurred-smooth-design-video-animation-ultra-hd-4k-3840x2160_rffdhgnp_thumbnail-1080_01.png"
+                alt="page4">
+
+            <form style="background-color: white ;"  class="form3">
+                <h2>Train b/w Station :</h2>
+                <br>
+                <h3>⮜ From :</h3>
+                <input class="box" type="number" name="Station Code" placeholder="Station Code">
+                <h3>⮞ To :</h3>
+                <input class="box" type="number" name="Station Code" placeholder="Station Code">
+                <br> <br>
+                <button type="submit" form="form1">Search</button>
+                <br><br><br>
+            </form>
+            <div class="bw">
+                <h3> How to check trains between stations online? </h3>
+                <p> At RailYatri, we provide our users with the fastest, correct information on trains between stations in real time. You can check the IRCTC train schedule HERE </p> 
+                <h3> How can I check train status between stations at RailYatri website? </h3>
+                <p>1. Visit Railyatri trains between stations enquiry page.
+                    2. Enter the ‘From’ & ‘To’ station name or code to get the updated train schedule.
+                    3. Find the station name or code by just entering it’s first 3 letters. You will see a drop-down list from which you can select the desired station.</p>
+                <h3>How is Indian Railway train enquiry between two stations helpful?</h3>
+                <p>Indian Railway has been launching multiple new trains and older routes are being extended. Therefore, with the help of RailYatri’s trains between stations information, users get a chance to look at all the available trains to any destination. Now, ticket buyers can make informed & smooth travel plans.</p>    
+
+            </div>
+
+            
+        </div>
+        <div class="live-status" id="pnr">
+            <img class="image3" src="https://wallpapercave.com/wp/wp9189777.jpg" alt="page4">
+
+            <form class="form2">
+                <h2>PNR Status</h2>
+                <h3> PNR No. : </h3> <br>
+                <input class="box" type="text" name="train no." placeholder="Enter Your PNR No.">
+                <a href="https://www.railyatri.in/pnr-status">
+                    <br><br> <button type="submit" form="form1">Check Here !</button>
+                </a>
+                <form>
+                    <br><br>
+                    <button type="submit" form="form1">Cancel Your Ticket !</button>
+                    <br> <br> <br>
+                </form>
+                <div class="pnr">
+                <h3  > What is PNR?</h3>
+                <p>Full form of PNR is Passenger Name Record, a unique 10-digit number which is provided
+                    against every train ticket that is booked across India. Each PNR numbers provides a variety of
+                    information to ticket-holder(s).<br><br>
+
+                    The PNR Status information includes ticket booking status (confirmed/waiting list/canceled),
+                    departure and arrival time, details of the train, seat number, fare paid by the passenger for the
+                    seat. When group booking is done, then a single PNR may be provided to up to 6 passengers.</p>
+                <h3 >How to check IRCTC PNR status online?</h3>
+                <p >To check PNR status, follow these steps:<br><br>
+
+                    1. Find 10-digit PNR number on top left of your IRCTC train ticket.<br>
+                    2. Enter the PNR No. of your ticket and click "Get Status".<br>
+                    3. Your PNR Status will show up with information regarding your train ticket booking.</p>
+                </div>
+        </div>
+        <div class="live-status" id="about">
+            <img class="image5" src="https://media.istockphoto.com/photos/abstract-blue-cyan-background-picture-id995719694?k=20&m=995719694&s=612x612&w=0&h=zI2SFqWdZallvqgVphnq5T8ZWYK0TBIkKdyYP60JAI8=">
+            
+            <h1 class="animate-charcter" style=" position: absolute;
+         top: 3230px;left: 15px;"><u>About...</u></h1>
+         <div class="about">
+            <h2 class='lineUp' >An Encompassing Insightful Experience- Give Power to Your Train Travel Decision-Making
+            </h2>
+            <p >Travel is fun and when it comes to train travel, we go into the bypaths and un-trodden
+                depths of wilderness and travel explorations to tell the world the glories of our journey!</>>
+            <h2 >What makes us drive through?</h2>
+            <p >Our Motto: Simplifying Train Travels
+                With over 23.9 million passengers traveling and commuting daily by train, our aims to serve its
+                passengers with inclusive and comprehensive information that helps those making informed decisions. We
+                strive to be the fastest, mobile-friendly site that answers all your train travel questions in a few
+                taps. A comprehensive hub of train travel information that dedicatedly works to give its users
+                insightful information, all under one roof, to help them plan and take their train travel decisions in a
+                better way..</p>
+            <h2 > A step ahead convenience: Intelligence based Information </h2>
+            <p> Ours aims to work in accordance with the needs of its train travelers. It always updates
+                features that simplify the train journeys of the passengers.Yes, there are many other train travel
+                related apps and websites, but do they help in making your travel easy? Here is a quick go-through of
+                what information do we serve our passengers that make us stand out of the crowd:
+                PNR status information with Confirmation Probability.
+                Live Train Status, but with real time GPS Location mechanism that makes the experience fun and
+                fascinating.
+                Time table of trains with Offline time table feature, so that one may check it without Internet
+                connectivity.
+                You can avoid the delayed trains by studying the running time statistics of the trains between two
+                stations.
+                If you are a daily commuter through local trains and metros, find all the information in the RailYatri.
+                Fantasy and fun: Get to know the real time speed of your train and various trivia’s about Indian
+                Railways and the stations.
+                Live Trip Sharing. </p>
+            </div>
+            <div class="social">
+                <a href="https://facebook.com/ondrej.p.barta" class="link facebook" target="_parent"><span class="fa fa-facebook-square"></span></a>
+                <a href="https://twitter.com/PageOnlineXS" class="link twitter" target="_parent"><span class="fa fa-twitter"></span></a>
+                <a href="https://plus.google.com/+OndřejBárta-Otaku" class="link google-plus" target="_parent"><span class="fa fa-google-plus-square"></span></a>
+              </div>
+        
+            
+
+        </div>
+        
+        <div>
+            <ul id="header">
+                <li> <a class="active" href="#home"> Home </a></li>
+                <li><a href="#Live"> Live Status</a></li>
+                <li><a href="#bw"> Train b/w Station </a></li>
+                <li><a href="#pnr"> PNR Status</a></li>
+                <li style="float: right"><a href="#about"> About Us </a></li>
+                <li><i class='fa fa-user-circle' style='font-size:36px'></i></li>
+            </ul>
+        </div>
+    </body>
+
+</html>
